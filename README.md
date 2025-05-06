@@ -1,6 +1,4 @@
 #  TODKD
-This is the implementation of our TODKD model with paper:
- **Making Pre-trained Language Models Better Continual Few-Shot Relation Extractors**, accepted by COLING 2024.
 
 ## Requiements
 ### Environments
@@ -25,8 +23,9 @@ By default, BERT is our encoder model, please download pretrained BERT from [hug
 
 You can also choose RoBERTa as the encoder model, please download pretrained RoBERTa from [huggingface](https://huggingface.co/models) and put it into the `./roberta-base` directory.
 
-### ChatGPT
-You need to first apply for an [OpenAI account](https://platform.openai.com/), and then buy the OpenAI API to get your own **API key**. Then set your key in `config.ini`.
+### Qwen
+You need to first apply for an [QwenAI account](https://www.alibabacloud.com/help/zh/model-studio/what-is-qwen-llm), and then buy the Qwen API to get your own **API key**. Then set your key in `config.ini`.
+
 
 
 
@@ -46,6 +45,3 @@ To run our method, use command:
 ```
 
 You can refer to `config.ini` to adjust other hyperparameters.
-
-## Citation
-Please cite the following paper: "Making Pre-trained Language Models Better Continual Few-Shot Relation Extractors". Shengkun Ma, Jiale Han, Yi Liang, Bo Cheng. COLING, 2024.
